@@ -15,6 +15,7 @@ The active study files, interactive explanations, and quantitative models are or
   * `Chp7_Swaps.ipynb`: Comprehensive interest rate swap valuation and term structures.
   * `Chp9_XVAs.ipynb`: Advanced CVA, DVA, FVA, MVA, and KVA valuation frameworks.
   * `Chp10_Option_Mechanics.ipynb`: Exchange rules, CBOE margin accounts, and contract adjustments.
+  * `Chp11_Stock_Option_Properties.ipynb`: Option properties, boundary inequalities, and Put-Call parity.
 
 ---
 
@@ -49,6 +50,12 @@ This is the current focus of the repository. I am actively translating Hull's de
 * **Margin Profiles**: Plotted the CBOE Naked Put Margin requirement profile across different spot prices, showing the transition boundaries between Calc 1 and Calc 2.
 * **Contract Adjustments**: Replicated Microsoft's 2004 special $\$3.00$ dividend option adjustments (scaling strike prices down and share counts up).
 * **Payoff & Strangle Profiles**: Programmed interactive Python verifications for European option payouts, strangle profit profiles, and stock splits.
+
+#### 5. Properties of Stock Options ([Chapter 11](file:///d:/projects/the_book_club/Option_Future_James_Hull/Chapters/Chp11_Stock_Option_Properties.ipynb))
+* **Option Boundary Inequalities**: Coded mathematical call and put price bounds, demonstrating early exercise thresholds where the American put merges with its intrinsic value.
+* **Put-Call Parity with Dividends**: Visualized no-arbitrage relationships for dividend-paying stocks and constructed synthetic option portfolios.
+* **Butterfly Spread Payoffs**: Programmed option portfolio convexity proofs ($c_2 \le 0.5(c_1 + c_3)$) to visually demonstrate that the payoff of a butterfly spread is non-negative.
+* **Arbitrage Exploitation**: Modeled complete, step-by-step risk-free cash flows for underpriced or overpriced calls and puts to exploit market inefficiencies.
 
 ---
 
