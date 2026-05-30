@@ -14,6 +14,7 @@ The active study files, interactive explanations, and quantitative models are or
   * `Chp15_Black_Scholes_Merton_Model.ipynb`: Stochastic modeling, pricing, and simulations.
   * `Chp7_Swaps.ipynb`: Comprehensive interest rate swap valuation and term structures.
   * `Chp9_XVAs.ipynb`: Advanced CVA, DVA, FVA, MVA, and KVA valuation frameworks.
+  * `Chp10_Option_Mechanics.ipynb`: Exchange rules, CBOE margin accounts, and contract adjustments.
 
 ---
 
@@ -42,6 +43,12 @@ This is the current focus of the repository. I am actively translating Hull's de
 * **Funding & Margin Valuation (FVA/MVA)**: Explored the cost of funding variation margin (VM) and initial margin (IM) on bilateral vs. CCP cleared legs.
 * **Fixed-for-Fixed Currency Swaps**: Valued cross-border currency legs (Examples 7.2 & 7.3) using both Forward Foreign Exchange contracts and dual-currency bond prices.
 * **The Hurdle Debate**: Synthesized the core corporate finance debate surrounding average corporate funding hurdles vs. risk-adjusted marginal funding costs.
+
+#### 4. Mechanics of Options Markets ([Chapter 10](file:///d:/projects/the_book_club/Option_Future_James_Hull/Chapters/Chp10_Option_Mechanics.ipynb))
+* **CBOE Naked Margins**: Coded the exact CBOE margin rules (Calculation 1 & Calculation 2) for stock and broad-based index options.
+* **Margin Profiles**: Plotted the CBOE Naked Put Margin requirement profile across different spot prices, showing the transition boundaries between Calc 1 and Calc 2.
+* **Contract Adjustments**: Replicated Microsoft's 2004 special $\$3.00$ dividend option adjustments (scaling strike prices down and share counts up).
+* **Payoff & Strangle Profiles**: Programmed interactive Python verifications for European option payouts, strangle profit profiles, and stock splits.
 
 ---
 
